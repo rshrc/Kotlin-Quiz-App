@@ -1,6 +1,9 @@
 package com.rshrc.quizapp
 
 object Constants {
+
+    var username: String = ""
+
     fun getQuestions(): ArrayList<Question> {
         val questionList = ArrayList<Question>()
 

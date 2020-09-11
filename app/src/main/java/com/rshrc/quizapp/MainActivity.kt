@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
             } else {
                 // Navigate to QuizActivity
                 val intent = Intent(this, QuizQuestionsActivity::class.java)
+                Constants.username = et_text.text.toString()
                 startActivity(intent)
                 finish()
             }
